@@ -25,7 +25,7 @@ def get_distance(houses: List[int], n: int) -> List[int]:
 
 def read_input() -> Tuple[List[int], int]:
     n = int(input())
-    houses = list(map(int, input().strip().split()))
+    houses = [int(num) for num in input().split()]
     return houses, n
 
 
