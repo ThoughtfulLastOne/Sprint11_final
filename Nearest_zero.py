@@ -1,4 +1,4 @@
-# 87049678
+# 87096682
 from typing import List, Tuple
 
 
@@ -29,10 +29,6 @@ def read_input() -> Tuple[List[int], int]:
     return houses, n
 
 
-def main():
+if __name__ == '__main__':
     houses, n = read_input()
     print(" ".join(map(str, get_distance(houses, n))))
-
-
-if __name__ == '__main__':
-    main()
