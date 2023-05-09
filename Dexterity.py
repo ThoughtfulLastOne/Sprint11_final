@@ -20,10 +20,6 @@ def read_input() -> Tuple[List[str], int]:
     return matrix, k
 
 
-def main():
+if __name__ == '__main__':
     matrix, k = read_input()
     print(get_max_points(matrix, k))
-
-
-if __name__ == '__main__':
-    main()
